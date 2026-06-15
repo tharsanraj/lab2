@@ -111,5 +111,25 @@ total_price = price - discount
 print("price of laptop: ", price)
 print("Discount: ", discount)
 print("Total price: ", total_price)
+
+#13
+num = int(input("Enter the number: "))
+if num % 7 == 0 or num % 10 == 7:
+    print("Buzz number")
+else:
+    print("Not a buzz number")
+
+#15
+character = input("Enter a Letter: ")
+if 'A' <= character <= 'Z':
+    print("It is capital", character)
+elif 'a' <= character <= 'z':
+    print("it is small letter", character)
+else:
+    print("invalid comment")
+
+    
+
+
                 
 
